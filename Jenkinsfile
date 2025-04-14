@@ -20,7 +20,7 @@ pipeline {
       steps {
         bat '''
           if not exist build\\classes mkdir build\\classes
-          javac -d build\\classes src\\Main.java
+          javac -d build\\classes Main.java
         '''
       }
     }
